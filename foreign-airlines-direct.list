@@ -1,0 +1,84 @@
+# Foreign airline websites and apps that are generally suitable for DIRECT.
+# Shadowrocket usage:
+# RULE-SET,https://raw.githubusercontent.com/davion0623/shadowrocket/master/foreign-airlines-direct.list,DIRECT
+
+# Air France / Air France-KLM / Flying Blue
+DOMAIN-SUFFIX,airfrance.com
+DOMAIN-SUFFIX,airfrance.com.cn
+DOMAIN-SUFFIX,airfrance.fr
+DOMAIN-SUFFIX,airfranceklm.com
+DOMAIN-SUFFIX,airfranceklm.com.cn
+DOMAIN-SUFFIX,flyingblue.com
+DOMAIN-SUFFIX,klm.com
+DOMAIN-SUFFIX,klm.com.cn
+DOMAIN-SUFFIX,transavia.com
+
+# Qatar Airways / Privilege Club
+DOMAIN-SUFFIX,qatarairways.com
+DOMAIN-SUFFIX,qatarairways.cn
+DOMAIN-SUFFIX,qmiles.com
+DOMAIN-SUFFIX,discoverqatar.qa
+DOMAIN-SUFFIX,qatarairwaysholidays.com
+DOMAIN-SUFFIX,qrcargo.com
+
+# Middle East airlines
+DOMAIN-SUFFIX,emirates.com
+DOMAIN-SUFFIX,etihad.com
+DOMAIN-SUFFIX,etihadguest.com
+DOMAIN-SUFFIX,gulfair.com
+DOMAIN-SUFFIX,omanair.com
+DOMAIN-SUFFIX,saudia.com
+DOMAIN-SUFFIX,turkishairlines.com
+DOMAIN-SUFFIX,milesandsmiles.com
+
+# European airlines
+DOMAIN-SUFFIX,lufthansa.com
+DOMAIN-SUFFIX,miles-and-more.com
+DOMAIN-SUFFIX,swiss.com
+DOMAIN-SUFFIX,austrian.com
+DOMAIN-SUFFIX,brusselsairlines.com
+DOMAIN-SUFFIX,eurowings.com
+DOMAIN-SUFFIX,britishairways.com
+DOMAIN-SUFFIX,iberia.com
+DOMAIN-SUFFIX,finnair.com
+DOMAIN-SUFFIX,sas.dk
+DOMAIN-SUFFIX,flysas.com
+DOMAIN-SUFFIX,virginatlantic.com
+DOMAIN-SUFFIX,ita-airways.com
+DOMAIN-SUFFIX,airserbia.com
+DOMAIN-SUFFIX,aerlingus.com
+DOMAIN-SUFFIX,lot.com
+
+# Asia-Pacific airlines outside Mainland China
+DOMAIN-SUFFIX,singaporeair.com
+DOMAIN-SUFFIX,krisflyer.com
+DOMAIN-SUFFIX,cathaypacific.com
+DOMAIN-SUFFIX,cathaypacific.com.cn
+DOMAIN-SUFFIX,cathay.com
+DOMAIN-SUFFIX,jal.co.jp
+DOMAIN-SUFFIX,ana.co.jp
+DOMAIN-SUFFIX,koreanair.com
+DOMAIN-SUFFIX,flyasiana.com
+DOMAIN-SUFFIX,thaiairways.com
+DOMAIN-SUFFIX,malaysiaairlines.com
+DOMAIN-SUFFIX,garuda-indonesia.com
+DOMAIN-SUFFIX,vietnamairlines.com
+DOMAIN-SUFFIX,philippineairlines.com
+DOMAIN-SUFFIX,airindia.com
+DOMAIN-SUFFIX,srilankan.com
+DOMAIN-SUFFIX,qantas.com
+DOMAIN-SUFFIX,airnewzealand.com
+
+# Americas airlines
+DOMAIN-SUFFIX,united.com
+DOMAIN-SUFFIX,delta.com
+DOMAIN-SUFFIX,aa.com
+DOMAIN-SUFFIX,americanairlines.com
+DOMAIN-SUFFIX,aircanada.com
+DOMAIN-SUFFIX,aeromexico.com
+DOMAIN-SUFFIX,latamairlines.com
+
+# Other airline alliance and booking support domains
+DOMAIN-SUFFIX,skyteam.com
+DOMAIN-SUFFIX,oneworld.com
+DOMAIN-SUFFIX,staralliance.com
