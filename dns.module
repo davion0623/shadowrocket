@@ -1,5 +1,5 @@
-#!name=dns
-#!desc=防DNS泄露
+#!name=防DNS泄露
+#!desc=劫持DNS+DNS覆写
 
 [General]
 hijack-dns = 8.8.8.8:53
