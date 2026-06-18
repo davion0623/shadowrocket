@@ -1,3 +1,6 @@
+#!name=dns
+#!desc=防DNS泄露
+
 [General]
 hijack-dns = 8.8.8.8:53
 dns-server = https://cloudflare-dns.com/dns-query#proxy,https://security.cloudflare-dns.com/dns-query#proxy
