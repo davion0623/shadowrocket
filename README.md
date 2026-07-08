@@ -39,6 +39,22 @@ Domestic DoH direct URL:
 https://raw.githubusercontent.com/davion0623/shadowrocket/master/dns-direct.list
 ```
 
+## Proxy Overrides
+
+Rule-set URL:
+
+```text
+https://raw.githubusercontent.com/davion0623/shadowrocket/master/proxy-overrides.list
+```
+
+Shadowrocket rule:
+
+```text
+RULE-SET,https://raw.githubusercontent.com/davion0623/shadowrocket/master/proxy-overrides.list,PROXY
+```
+
+This rule set forces common IP/DNS leak test domains through proxy before broad domestic direct rule sets such as ChinaMax_Domain.
+
 ## Foreign Airlines Direct
 
 Rule-set URL:

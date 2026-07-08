@@ -1,0 +1,14 @@
+# NAME: Proxy Overrides
+# UPDATED: 2026-07-08
+# DESC: Domains that must use proxy before broad domestic direct rule sets such as ChinaMax_Domain.
+
+DOMAIN-SUFFIX,browserleaks.com
+DOMAIN-SUFFIX,dnsleaktest.com
+DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,ipify.org
+DOMAIN-SUFFIX,test-ipv6.com
+DOMAIN-SUFFIX,whoer.net
+DOMAIN-SUFFIX,whatismyipaddress.com
