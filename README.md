@@ -14,7 +14,7 @@ Shadowrocket rule:
 RULE-SET,https://raw.githubusercontent.com/davion0623/shadowrocket/master/AI.list,PROXY
 ```
 
-This rule set aggregates current AI service domains from iab0x00 ProxyRules and blackmatrix7 Shadowrocket rules, covering ChatGPT/OpenAI, Claude, Gemini, Copilot, GitHub Copilot, Apple Intelligence, Grok, OpenRouter, Perplexity, and selected common AI platforms.
+This rule set aggregates current AI service domains from iab0x00 ProxyRules and blackmatrix7 Shadowrocket rules, covering ChatGPT/OpenAI, Claude, Gemini, Copilot, GitHub Copilot, Apple Intelligence, Grok, OpenRouter, Perplexity, DeepSeek, Cursor, Devin/Windsurf, Mistral, Hugging Face, Poe, Midjourney, Runway, and selected common AI platforms.
 
 ## Foreign Airlines Direct
 

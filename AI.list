@@ -17,11 +17,9 @@ DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
@@ -37,11 +35,6 @@ DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,turn.livekit.cloud
-DOMAIN,api-iam.intercom.io
-DOMAIN,api.statsig.com
-DOMAIN,o33249.ingest.sentry.io
-DOMAIN,openaiapi-site.azureedge.net
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,openaiapi
 DOMAIN-KEYWORD,openaicom
@@ -117,16 +110,44 @@ DOMAIN,pplx-res.cloudinary.com
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,pplx.ai
 
-# Other AI services
-DOMAIN-SUFFIX,character.ai
-DOMAIN-SUFFIX,cohere.ai
-DOMAIN-SUFFIX,cursor.sh
+# DeepSeek
 DOMAIN-SUFFIX,deepseek.com
+
+# Meta AI
+DOMAIN,meta.ai
+
+# Coding agents / AI IDEs
+DOMAIN-SUFFIX,anysphere.co
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,cognition.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,devin.ai
+DOMAIN-SUFFIX,exafunction.com
+DOMAIN-SUFFIX,tabnine.com
+DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,windsurf.com
+
+# Model providers / developer platforms
+DOMAIN-SUFFIX,cohere.ai
+DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,huggingface.com
 DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,replicate.com
+
+# AI assistants / search
+DOMAIN-SUFFIX,character.ai
+DOMAIN-SUFFIX,kimi.com
+DOMAIN-SUFFIX,monica.im
 DOMAIN-SUFFIX,phind.com
 DOMAIN-SUFFIX,poe.com
-DOMAIN-SUFFIX,replicate.com
-DOMAIN-SUFFIX,runwayml.com
 DOMAIN-SUFFIX,you.com
+
+# AI image / video / creative tools
+DOMAIN-SUFFIX,ideogram.ai
+DOMAIN-SUFFIX,leonardo.ai
+DOMAIN-SUFFIX,luma.ai
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,pika.art
+DOMAIN-SUFFIX,runwayml.com
