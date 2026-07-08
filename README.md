@@ -27,12 +27,17 @@ https://raw.githubusercontent.com/davion0623/shadowrocket/master/dns-privacy.lis
 Shadowrocket rules:
 
 ```text
-DOMAIN-SUFFIX,dns.alidns.com,DIRECT
-DOMAIN-SUFFIX,doh.pub,DIRECT
+RULE-SET,https://raw.githubusercontent.com/davion0623/shadowrocket/master/dns-direct.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/davion0623/shadowrocket/master/dns-privacy.list,PROXY
 ```
 
-This rule set captures common third-party encrypted DNS providers to reduce DNS bypass/leakage. Keep the configured domestic DoH resolvers direct before this rule set as explicit overrides.
+These rule sets capture DNS resolver traffic to reduce DNS bypass/leakage. Keep the domestic DoH direct rule set before the third-party encrypted DNS proxy rule set.
+
+Domestic DoH direct URL:
+
+```text
+https://raw.githubusercontent.com/davion0623/shadowrocket/master/dns-direct.list
+```
 
 ## Foreign Airlines Direct
 

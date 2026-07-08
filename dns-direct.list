@@ -1,0 +1,6 @@
+# NAME: DNS Direct
+# UPDATED: 2026-07-08
+# DESC: Domestic DoH resolvers used by the local Shadowrocket configuration.
+
+DOMAIN-SUFFIX,dns.alidns.com
+DOMAIN-SUFFIX,doh.pub
