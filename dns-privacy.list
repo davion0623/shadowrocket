@@ -1,0 +1,20 @@
+# NAME: DNS Privacy
+# UPDATED: 2026-07-08
+# DESC: Capture common third-party DoH/DoT providers to reduce DNS bypass/leakage in Shadowrocket.
+
+# Route common third-party encrypted DNS providers through proxy.
+DOMAIN-SUFFIX,dns.google
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,quad9.net
+DOMAIN-SUFFIX,doh.opendns.com
+DOMAIN-SUFFIX,dns.nextdns.io
+DOMAIN-SUFFIX,dns.adguard.com
+DOMAIN-SUFFIX,doh.cleanbrowsing.org
+DOMAIN-SUFFIX,dns.switch.ch
+DOMAIN-SUFFIX,dns.sb
+DOMAIN-SUFFIX,dns.twnic.tw
+DOMAIN-SUFFIX,dns10.quad9.net
+DOMAIN-SUFFIX,dns11.quad9.net
+DOMAIN-SUFFIX,dns9.quad9.net
+DOMAIN-SUFFIX,dot.sb
+DOMAIN-SUFFIX,mozilla.cloudflare-dns.com
