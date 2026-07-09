@@ -89,15 +89,6 @@ DOMAIN-SUFFIX,edgeservices.bing.com
 # GitHub Copilot
 DOMAIN-SUFFIX,githubcopilot.com
 
-# Apple Intelligence / Siri Private Relay
-DOMAIN,apple-relay.cloudflare.com
-DOMAIN,apple-relay.fastly-edge.com
-DOMAIN,apple-relay.apple.com
-DOMAIN,cp4.cloudflare.com
-DOMAIN,gspe1-ssl.ls.apple.com
-DOMAIN,guzzoni.apple.com
-DOMAIN-SUFFIX,smoot.apple.com
-
 # xAI / Grok
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,x.ai
