@@ -32,6 +32,8 @@ DOMAIN-SUFFIX,ubixioe.com,REJECT
 # Exact ad/tracking endpoints observed in the log; kept narrow to avoid
 # blocking the parent domains used by the app's core services.
 DOMAIN,open.e.kuaishou.com,REJECT
+DOMAIN,open.e.kuaishou.cn,REJECT
+DOMAIN,c.etoolads.cn,REJECT
 DOMAIN,adim.pinduoduo.com,REJECT
 DOMAIN,adsbidding.togothermany.cn,REJECT
 DOMAIN,adscfg.togothermany.cn,REJECT
