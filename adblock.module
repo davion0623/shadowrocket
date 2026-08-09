@@ -1,0 +1,43 @@
+#!name=adblock
+#!desc=基于代理日志的广告及广告 SDK 拦截
+
+# Based on the 2026-08-09 proxy log: ad delivery, bidding, creative CDN,
+# attribution, and clearly named ad/tracking endpoints observed in the log.
+# REJECT may disable ads, rewarded content, attribution, or ad-related analytics.
+
+[Rule]
+
+# Ad networks, mediation, bidding, and creative delivery
+DOMAIN-SUFFIX,adukwai.com,REJECT
+DOMAIN-SUFFIX,adkwai.com,REJECT
+DOMAIN-SUFFIX,ugdtimg.com,REJECT
+DOMAIN-SUFFIX,beizi.biz,REJECT
+DOMAIN-SUFFIX,gameley.com,REJECT
+DOMAIN-SUFFIX,adbiding.com,REJECT
+DOMAIN-SUFFIX,sigmob.cn,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com,REJECT
+DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN,sdk.e.qq.com,REJECT
+DOMAIN,sdkquic.e.qq.com,REJECT
+DOMAIN,gdfp.gifshow.com,REJECT
+
+# Attribution and ad-performance services
+DOMAIN-SUFFIX,appsflyersdk.com,REJECT
+DOMAIN-SUFFIX,gravity-engine.com,REJECT
+DOMAIN-SUFFIX,ubixioe.com,REJECT
+
+# Exact ad/tracking endpoints observed in the log; kept narrow to avoid
+# blocking the parent domains used by the app's core services.
+DOMAIN,open.e.kuaishou.com,REJECT
+DOMAIN,adim.pinduoduo.com,REJECT
+DOMAIN,adsbidding.togothermany.cn,REJECT
+DOMAIN,adscfg.togothermany.cn,REJECT
+DOMAIN,dads.togothermany.cn,REJECT
+DOMAIN,data-track.togothermany.cn,REJECT
+DOMAIN,v66-ad.ndcjl.com,REJECT
+DOMAIN,lf3-analytics.bytescm.com,REJECT
+DOMAIN,toblog.ctobsnssdk.com,REJECT
+DOMAIN,k128-inapp-yebinnet.gslb.yebinnet.com,REJECT

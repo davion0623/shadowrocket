@@ -78,3 +78,15 @@ Module URL:
 ```text
 https://raw.githubusercontent.com/davion0623/shadowrocket/master/dns.module
 ```
+
+## adblock
+
+Module URL:
+
+```text
+https://raw.githubusercontent.com/davion0623/shadowrocket/master/adblock.module
+```
+
+This module is based on the 2026-08-09 proxy log: 290 log rows, 112 distinct destinations, and a 150-second observation window. It covers high-confidence ad networks, mediation/bidding endpoints, ad creative delivery, attribution services, and exact ad/tracking endpoints observed in the log. The log contained 91 exact duplicate rows, so the counts are treated as evidence of route exposure rather than unique request or traffic-volume counts.
+
+The module intentionally does not block broad `qq.com`, `kuaishou.com`, `pinduoduo.com`, Apple/iCloud, OpenAI, RevenueCat, or Sentry domains to reduce the risk of breaking core app functions. Because the rules use `REJECT`, rewarded ads, ad attribution, and some advertising-related analytics may stop working.
