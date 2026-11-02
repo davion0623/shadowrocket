@@ -62,4 +62,4 @@ DOMAIN-SUFFIX,icloud.sk
 DOMAIN-SUFFIX,icloud.vn
 
 # CDN aliases
-DOMAIN-KEYWORD,icloud.com.akadns.net
+DOMAIN-SUFFIX,icloud.com.akadns.net
