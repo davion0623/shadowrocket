@@ -2,7 +2,7 @@
 # UPDATED: 2026-11-02
 # SOURCE: https://support.apple.com/en-us/101555
 # REFERENCE: blackmatrix7/ios_rule_script, v2fly/domain-list-community (icloud)
-# iCloud sync, backup, Photos, Drive, iWork, Mail, Private Relay, Apple Account sign-in and mainland China iCloud.
+# Route with DIRECT. iCloud sync, backup, Photos, Drive, iWork, Mail, Private Relay, Apple Account sign-in and mainland China iCloud.
 
 # iCloud core services (Apple-documented)
 DOMAIN-SUFFIX,apple-cloudkit.com
