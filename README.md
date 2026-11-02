@@ -71,6 +71,24 @@ RULE-SET,https://raw.githubusercontent.com/davion0623/shadowrocket/master/foreig
 
 This rule set focuses on foreign airline websites and app backends that are generally suitable for direct access from China, with Air France and Qatar Airways included first.
 
+## iCloud
+
+Rule-set URL:
+
+```text
+https://raw.githubusercontent.com/davion0623/shadowrocket/master/icloud.list
+```
+
+Shadowrocket rule:
+
+```text
+RULE-SET,https://raw.githubusercontent.com/davion0623/shadowrocket/master/icloud.list,PROXY
+```
+
+This rule set routes Apple's documented iCloud service domains through the proxy, including iCloud sync and storage, CloudKit, Photos and Live Photos, iWork documents, mainland China iCloud services, content delivery, iCloud DNS, and Private Relay related connectivity. Apple notes that CDN aliases can change, so check connection logs if a particular sync host is not covered.
+
+Source: [Apple: Use Apple products on enterprise networks](https://support.apple.com/en-us/101555).
+
 ## dns
 
 Module URL:
