@@ -1,15 +1,65 @@
 # NAME: iCloud
 # UPDATED: 2026-11-02
 # SOURCE: https://support.apple.com/en-us/101555
-# Apple-documented iCloud service domains for sync, backup, photos, files, iWork and related connectivity.
+# REFERENCE: blackmatrix7/ios_rule_script, v2fly/domain-list-community (icloud)
+# iCloud sync, backup, Photos, Drive, iWork, Mail, Private Relay, Apple Account sign-in and mainland China iCloud.
+
+# iCloud core services (Apple-documented)
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-dns.net
 DOMAIN-SUFFIX,apple-livephotoskit.com
-DOMAIN-SUFFIX,apzones.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,gc.apple.com
 DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,icloud.apple.com
+DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,iwork.apple.com
+
+# CloudKit development environment
+DOMAIN-SUFFIX,icloud-sandbox.com
+
+# iCloud Mail (@icloud.com / @me.com / @mac.com, custom email domains)
+DOMAIN-SUFFIX,applemx-icloud.com
+DOMAIN-SUFFIX,mac.com
+DOMAIN-SUFFIX,me.com
+
+# Apple Account sign-in used by iCloud (Apple-documented)
+DOMAIN-SUFFIX,account.apple.com
+DOMAIN-SUFFIX,appleid.apple.com
+DOMAIN-SUFFIX,gsa.apple.com
+DOMAIN-SUFFIX,gsas.apple.com
+DOMAIN-SUFFIX,idmsa.apple.com
+
+# Mainland China iCloud (operated by GCBD)
+DOMAIN-SUFFIX,apple-icloud.cn
+DOMAIN-SUFFIX,appleicloud.cn
+DOMAIN-SUFFIX,apzones.com
+DOMAIN-SUFFIX,icloud-apple.cn
+DOMAIN-SUFFIX,icloud-content.com.cn
+DOMAIN-SUFFIX,icloud.cn
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,icloud.net.cn
+DOMAIN-SUFFIX,icloudapple.cn
+
+# Apple-owned regional iCloud domains (redirect to icloud.com)
+DOMAIN-SUFFIX,icloud.ch
+DOMAIN-SUFFIX,icloud.de
+DOMAIN-SUFFIX,icloud.ee
+DOMAIN-SUFFIX,icloud.fi
+DOMAIN-SUFFIX,icloud.fr
+DOMAIN-SUFFIX,icloud.hu
+DOMAIN-SUFFIX,icloud.ie
+DOMAIN-SUFFIX,icloud.is
+DOMAIN-SUFFIX,icloud.jp
+DOMAIN-SUFFIX,icloud.lv
+DOMAIN-SUFFIX,icloud.om
+DOMAIN-SUFFIX,icloud.org
+DOMAIN-SUFFIX,icloud.pt
+DOMAIN-SUFFIX,icloud.ro
+DOMAIN-SUFFIX,icloud.se
+DOMAIN-SUFFIX,icloud.si
+DOMAIN-SUFFIX,icloud.sk
+DOMAIN-SUFFIX,icloud.vn
+
+# CDN aliases
+DOMAIN-KEYWORD,icloud.com.akadns.net
