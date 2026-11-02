@@ -85,7 +85,7 @@ Shadowrocket rule:
 RULE-SET,https://raw.githubusercontent.com/davion0623/shadowrocket/master/icloud.list,PROXY
 ```
 
-This rule set routes Apple's documented iCloud service domains through the proxy, including iCloud sync and storage, CloudKit, Photos and Live Photos, iWork documents, mainland China iCloud services, content delivery, iCloud DNS, and Private Relay related connectivity. Apple notes that CDN aliases can change, so check connection logs if a particular sync host is not covered.
+This rule set routes Apple's documented iCloud service domains through the proxy, including iCloud sync and storage, CloudKit, Photos and Live Photos, iWork documents, iCloud Mail (icloud.com / me.com / mac.com and custom email domains), Apple Account sign-in used by iCloud, mainland China iCloud services, Apple-owned regional iCloud domains, content delivery, iCloud DNS, and Private Relay related connectivity. Apple notes that CDN aliases can change, so check connection logs if a particular sync host is not covered.
 
 Source: [Apple: Use Apple products on enterprise networks](https://support.apple.com/en-us/101555).
 
