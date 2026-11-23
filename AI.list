@@ -116,8 +116,9 @@ DOMAIN-SUFFIX,pplx.ai
 # DeepSeek
 DOMAIN-SUFFIX,deepseek.com
 
-# Meta AI
-DOMAIN,meta.ai
+# Meta AI / Vibes / Model API
+DOMAIN-SUFFIX,meta.ai
+DOMAIN,ai.meta.com
 
 # Meta Muse
 DOMAIN-SUFFIX,muse.ai
