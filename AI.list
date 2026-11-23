@@ -1,9 +1,9 @@
 # NAME: AI
-# UPDATED: 2026-07-08
+# UPDATED: 2026-11-23
 # SOURCE: https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
 # SOURCE: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket
 
-# OpenAI / ChatGPT / Sora
+# OpenAI / ChatGPT / Codex
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,openai-api.arkoselabs.com
@@ -11,7 +11,12 @@ DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,static.cloudflareinsights.com
-DOMAIN-SUFFIX,ai.com
+DOMAIN,cdn.workos.com
+DOMAIN,forwarder.workos.com
+DOMAIN,frontend-apps-multi-region.workos.com
+DOMAIN,images.workoscdn.com
+DOMAIN,setup.workos.com
+DOMAIN,workos.imgix.net
 DOMAIN-SUFFIX,algolia.net
 DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,auth0.com
@@ -26,6 +31,7 @@ DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,livekit.cloud
 DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,observeit.net
 DOMAIN-SUFFIX,openai.com
@@ -33,18 +39,19 @@ DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-KEYWORD,openai
-DOMAIN-KEYWORD,openaiapi
-DOMAIN-KEYWORD,openaicom
 
-# Anthropic / Claude
+# Anthropic / Claude / Claude Code / Cowork
 DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.app
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudemcpcontent.com
+DOMAIN-SUFFIX,claudeusercontent.com
 
-# Google AI / Gemini / DeepMind / NotebookLM
+# Google AI / Gemini / DeepMind / Gemini Notebook
 DOMAIN,ai.google.dev
 DOMAIN,aistudio.google.com
 DOMAIN,alkalicore-pa.clients6.google.com
@@ -52,8 +59,13 @@ DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,antigravity-unleash.goog
 DOMAIN,antigravity.google
 DOMAIN,bard.google.com
+DOMAIN,gemini.google
 DOMAIN,gemini.google.com
+DOMAIN,gemini.gstatic.com
+DOMAIN,geminiweb-pa.clients6.google.com
 DOMAIN,makersuite.google.com
+DOMAIN,notebook.google.com
+DOMAIN,notebooklm.google.com
 DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
@@ -65,7 +77,6 @@ DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
 DOMAIN-KEYWORD,labs.google
-DOMAIN-KEYWORD,notebooklm.google
 
 # Microsoft Copilot / Bing AI
 DOMAIN,api.msn.com
@@ -91,6 +102,7 @@ DOMAIN-SUFFIX,githubcopilot.com
 
 # xAI / Grok
 DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grokusercontent.com
 DOMAIN-SUFFIX,x.ai
 
 # OpenRouter
@@ -106,6 +118,9 @@ DOMAIN-SUFFIX,deepseek.com
 
 # Meta AI
 DOMAIN,meta.ai
+
+# Meta Muse
+DOMAIN-SUFFIX,muse.ai
 
 # Coding agents / AI IDEs
 DOMAIN-SUFFIX,anysphere.co
@@ -126,6 +141,9 @@ DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,huggingface.com
 DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,replicate.com
+
+# ai.com
+DOMAIN-SUFFIX,ai.com
 
 # AI assistants / search
 DOMAIN-SUFFIX,character.ai

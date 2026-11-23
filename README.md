@@ -14,7 +14,7 @@ Shadowrocket rule:
 RULE-SET,https://raw.githubusercontent.com/davion0623/shadowrocket/master/AI.list,PROXY
 ```
 
-This rule set aggregates current AI service domains from iab0x00 ProxyRules and blackmatrix7 Shadowrocket rules, covering ChatGPT/OpenAI, Claude, Gemini, Copilot, GitHub Copilot, Apple Intelligence, Grok, OpenRouter, Perplexity, DeepSeek, Cursor, Devin/Windsurf, Mistral, Hugging Face, Poe, Midjourney, Runway, and selected common AI platforms.
+This rule set combines domains from iab0x00 ProxyRules, blackmatrix7 Shadowrocket rules, and service documentation. It covers ChatGPT/OpenAI and Codex, Claude and Claude Code, Gemini and Gemini Notebook, Microsoft Copilot, GitHub Copilot, Grok, Meta AI and Muse, OpenRouter, Perplexity, DeepSeek, Cursor, Devin/Windsurf, Mistral, Hugging Face, Poe, Midjourney, Runway, and other AI services.
 
 ## DNS Privacy
 
