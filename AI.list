@@ -1,5 +1,6 @@
 # NAME: AI
-# UPDATED: 2026-11-23
+# UPDATED: 2026-11-24
+# SCOPE: Overseas AI services only. Exclude Chinese AI apps, including their international editions.
 # SOURCE: https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
 # SOURCE: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Shadowrocket
 
@@ -113,9 +114,6 @@ DOMAIN,pplx-res.cloudinary.com
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,pplx.ai
 
-# DeepSeek
-DOMAIN-SUFFIX,deepseek.com
-
 # Meta AI / Vibes / Model API
 DOMAIN-SUFFIX,meta.ai
 DOMAIN,ai.meta.com
@@ -132,7 +130,6 @@ DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,devin.ai
 DOMAIN-SUFFIX,exafunction.com
 DOMAIN-SUFFIX,tabnine.com
-DOMAIN-SUFFIX,trae.ai
 DOMAIN-SUFFIX,windsurf.com
 
 # Model providers / developer platforms
@@ -148,8 +145,6 @@ DOMAIN-SUFFIX,ai.com
 
 # AI assistants / search
 DOMAIN-SUFFIX,character.ai
-DOMAIN-SUFFIX,kimi.com
-DOMAIN-SUFFIX,monica.im
 DOMAIN-SUFFIX,phind.com
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,you.com
